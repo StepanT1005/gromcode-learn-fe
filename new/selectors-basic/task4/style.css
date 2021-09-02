@@ -1,0 +1,20 @@
+[target="_blank"] {
+  color: green;
+}
+li {
+  background-color: yellow;
+}
+footer,
+header {
+  border: 3px dashed blue;
+}
+article.new {
+  font-size: 24px;
+}
+li.new {
+  background-color: red;
+}
+.new,
+.posted-today {
+  background-color: pink;
+}

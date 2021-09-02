@@ -28,11 +28,12 @@ div > p {
 input[type="text"] {
   background: gray;
 }
-/* body:nth-child(3) div p {
+body:nth-child(5) div p {
   background-color: yellow;
-} */
-div:nth-child(3) > p:nth-child(2) {
-  border: 5px white;
+}
+
+div:nth-child(5) > p:last-child {
+  border: 5px solid white;
 }
 em {
   color: white;

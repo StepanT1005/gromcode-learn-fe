@@ -1,9 +1,9 @@
 .div1 {
   font-size: 24px;
-  width: 700px;
-  height: 300px;
+  width: 420px;
+  height: 140px;
   background-color: bisque;
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 50px 100px;
   padding: 20px;
   border-top: 10px solid firebrick;

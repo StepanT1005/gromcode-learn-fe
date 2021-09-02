@@ -31,6 +31,10 @@ input[type="text"] {
 /* body:nth-child(3) div p {
   background-color: yellow;
 } */
-/* div:nth-child(3) p {
-  border: 2px white;
-} */
+div:nth-child(3) > p:nth-child(2) {
+  border: 5px white;
+}
+em {
+  color: white;
+  font-size: 20px;
+}

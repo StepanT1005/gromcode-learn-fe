@@ -1,7 +1,9 @@
 .body {
   background-color: antiquewhite;
 }
-.div {
+
+.div1 {
+  background-color: aquamarine;
   box-sizing: border-box;
   border: 8px solid black;
   margin: 16px;
@@ -9,9 +11,12 @@
   height: 128px;
   width: 512px;
 }
-.div1 {
-  background-color: aquamarine;
-}
 .div2 {
   background-color: azure;
+  box-sizing: border-box;
+  border: 8px solid black;
+  margin: 16px;
+  padding: 16px;
+  height: 128px;
+  width: 512px;
 }

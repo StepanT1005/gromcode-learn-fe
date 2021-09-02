@@ -1,0 +1,16 @@
+[checked] {
+  margin-left: 50px;
+}
+label {
+  text-transform: uppercase;
+}
+#special::first-letter {
+  font-size: 100px;
+  color: green;
+}
+h1:hover {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}

@@ -40,13 +40,10 @@ div {
 .container {
   height: 2000px;
 }
-.static-parent {
-  position: static;
-}
 .relative-parent {
   position: relative;
-  bottom: 20px;
-  right: 50px;
+  top: 20px;
+  left: 50px;
 }
 .absolute-parent {
   position: absolute;
@@ -55,6 +52,6 @@ div {
 }
 .fixed-parent {
   position: fixed;
-  bottom: 20px;
-  left: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }

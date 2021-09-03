@@ -10,7 +10,7 @@
 }
 .navigation {
   height: 40px;
-  line-height: 300%;
+  line-height: 280%;
   position: static;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -19,6 +19,7 @@
   height: 40px;
   list-style-type: none;
   position: static;
+  display: flex;
 }
 .nav-list li {
   height: 40px;

@@ -8,14 +8,29 @@
 .navigation {
   height: 40px;
   line-height: 50%;
+  position: static;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .nav-list {
+  height: 40px;
   list-style-type: none;
+  position: static;
+  box-sizing: border-box;
 }
 .nav-list li {
+  height: 40px;
   display: inline;
   margin-left: 16px;
   color: white;
+  position: static;
+  float: left;
+}
+.nav-item {
+  height: 40px;
+  position: relative;
+  box-sizing: content-box;
 }
 .content {
   height: 5000px;

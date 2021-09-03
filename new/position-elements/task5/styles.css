@@ -3,17 +3,23 @@
   height: 40px;
   width: 100%;
   position: fixed;
+  box-sizing: border-box;
+  z-index: 1;
 }
 .navigation {
   height: 40px;
   color: white;
   line-height: 50%;
+  position: fixed;
+  z-index: 1;
 }
 li {
   float: left;
   margin-left: 16px;
   list-style-type: none;
   height: 40px;
+  position: relative;
+  z-index: 1;
 }
 .content {
   height: 5000px;

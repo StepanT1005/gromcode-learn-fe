@@ -7,7 +7,7 @@
 }
 .navigation {
   height: 40px;
-  /* line-height: 50%; */
+  line-height: 50%;
   position: static;
   box-sizing: border-box;
   margin-top: 0px;
@@ -26,11 +26,7 @@
   color: white;
   position: static;
   float: left;
-}
-.nav-item {
-  height: 40px;
-  position: relative;
-  box-sizing: content-box;
+  margin-top: 5px;
 }
 .content {
   height: 5000px;

@@ -13,17 +13,19 @@ li {
   float: left;
   margin-left: 16px;
   list-style-type: none;
+  height: 40px;
 }
 .content {
   height: 5000px;
   background-color: beige;
+  box-sizing: border-box;
 }
 .head {
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  position: relative;
-  /* position: absolute; */
+  box-sizing: border-box;
+  position: absolute;
   top: calc(50%);
   left: calc(43%);
 }

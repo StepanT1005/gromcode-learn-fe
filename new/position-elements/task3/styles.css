@@ -5,18 +5,18 @@
   position: relative;
   float: left;
 }
-.red {
+.block_red {
   background-color: red;
 }
-.blue {
+.block_blue {
   background-color: blue;
 }
-.black {
+.block_black {
   background-color: black;
 }
-.yellow {
+.block_yellow {
   background-color: yellow;
 }
-.green {
+.block_green {
   background-color: green;
 }

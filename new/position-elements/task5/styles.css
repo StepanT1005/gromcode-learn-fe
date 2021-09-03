@@ -1,25 +1,21 @@
 .header {
   background-color: darkturquoise;
   height: 40px;
-  width: 100%;
   position: fixed;
-  box-sizing: border-box;
+  width: 100%;
   z-index: 1;
 }
 .navigation {
   height: 40px;
-  color: white;
   line-height: 50%;
-  position: fixed;
-  z-index: 1;
 }
-li {
-  float: left;
-  margin-left: 16px;
+.nav-list {
   list-style-type: none;
-  height: 40px;
-  position: relative;
-  z-index: 1;
+}
+.nav-list li {
+  display: inline;
+  margin-left: 16px;
+  color: white;
 }
 .content {
   height: 5000px;
@@ -32,8 +28,8 @@ li {
   background-color: aquamarine;
   box-sizing: border-box;
   position: absolute;
-  top: calc(50%);
-  right: calc(50%);
+  top: calc(50% - 100px);
+  right: calc(50% - 100px);
 }
 .ear {
   width: 40px;
@@ -66,3 +62,18 @@ li {
 .eye_left {
   float: right;
 }
+
+/* 
+  /* width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 1; */
+/* } */
+/* .navigation { */
+/* height: 40px;
+  color: white;
+  line-height: 50%;
+  position: static;
+  z-index: 1; */
+/* }
+li { */

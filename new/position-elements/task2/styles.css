@@ -9,9 +9,10 @@ section {
 }
 
 .footer {
-  height: 30px;
+  height: 31px;
   border: 2px solid black;
   clear: both;
+  /* box-sizing: content-box; */
 }
 .container {
   box-sizing: border-box;

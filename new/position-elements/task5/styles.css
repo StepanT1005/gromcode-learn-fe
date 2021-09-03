@@ -33,7 +33,7 @@ li {
   box-sizing: border-box;
   position: absolute;
   top: calc(50%);
-  left: calc(43%);
+  right: calc(50%);
 }
 .ear {
   width: 40px;

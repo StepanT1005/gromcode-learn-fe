@@ -52,6 +52,6 @@ div {
 }
 .fixed-parent {
   position: fixed;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  bottom: 20px;
+  left: 30px;
 }

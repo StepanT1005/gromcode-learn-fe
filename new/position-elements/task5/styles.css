@@ -7,7 +7,7 @@
 }
 .navigation {
   height: 40px;
-  line-height: 50%;
+  /* line-height: 50%; */
   position: static;
   box-sizing: border-box;
   margin-top: 0px;

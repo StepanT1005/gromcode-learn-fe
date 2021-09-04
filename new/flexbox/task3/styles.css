@@ -48,12 +48,15 @@
 }
 .sidebar_ul {
   list-style-type: none;
-  height: 40px;
+  /* height: 40px; */
   align-items: left;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 0px;
+  margin: 0;
+  justify-content: center;
 }
 .sidebar_li {
-  margin: 16px;
+  margin-left: 16px;
+  height: 40px;
 }

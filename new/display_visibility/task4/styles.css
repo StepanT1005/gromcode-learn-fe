@@ -14,7 +14,7 @@
   text-decoration: none;
   display: none;
   position: absolute;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 .text:hover .tooltip {
   display: block;

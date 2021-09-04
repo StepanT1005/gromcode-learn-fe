@@ -1,14 +1,14 @@
-.header {
+header {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .articles-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .article {
   background-color: bisque;
   margin: 8px;
   padding: 16px;
-  min-width: 300px;
+  flex-basis: 300px;
 }

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.articles-list {
+  display: flex;
+  flex-direction: column;
+}
+.article {
+  background-color: bisque;
+  margin: 8px;
+  padding: 16px;
+  min-width: 300px;
+}

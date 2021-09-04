@@ -5,7 +5,7 @@
   margin: 16px;
   display: inline-block;
   cursor: pointer;
-  margin-top: 32px;
+  padding: 16px;
 }
 .menu-button {
   background-color: darkgreen;
@@ -35,4 +35,7 @@
 }
 .dropdown:hover .menu-list {
   display: block;
+}
+.dropdown:hover .menu-button {
+  opacity: 1;
 }

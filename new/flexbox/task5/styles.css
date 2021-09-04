@@ -11,4 +11,6 @@ header {
   margin: 8px;
   padding: 16px;
   flex-basis: 300px;
+  min-width: 300px;
+  flex-grow: 1;
 }

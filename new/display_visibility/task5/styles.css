@@ -1,0 +1,11 @@
+.thumb {
+  margin: 8px;
+}
+.gallery {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.gallery:hover {
+  cursor: all-scroll;
+}

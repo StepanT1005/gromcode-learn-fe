@@ -1,0 +1,17 @@
+.image {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 16px;
+  border: 1px dotted grey;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image:nth-child(1),
+.image:nth-child(2) {
+  background-size: contain;
+}
+.image:nth-child(3) {
+  background-size: contain;
+}

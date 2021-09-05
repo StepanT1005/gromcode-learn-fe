@@ -6,7 +6,6 @@
   box-sizing: border-box;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 16px;
 }
 .image:nth-child(1),
 .image:nth-child(2) {
@@ -14,8 +13,14 @@
 }
 .image:nth-child(3) {
   background-size: contain;
-  margin-left: 10px;
+  margin: 16px;
 }
 .image:nth-child(2) {
-  margin-left: 10px;
+  margin: 16px;
 }
+
+.image:nth-child(1) {
+  margin: 16px;
+}
+
+/* margin-left: 11px; */

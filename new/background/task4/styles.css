@@ -4,7 +4,7 @@
   display: inline-block;
   margin: 16px;
   border: 1px dotted grey;
-  box-sizing: border-box;
+  box-sizing: content-box;
   background-position: center;
   background-repeat: no-repeat;
 }

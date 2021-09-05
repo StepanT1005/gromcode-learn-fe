@@ -2,11 +2,11 @@
   width: 200px;
   height: 200px;
   display: inline-block;
-  margin: 16px;
   border: 1px dotted grey;
-  box-sizing: content-box;
+  box-sizing: border-box;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 16px;
 }
 .image:nth-child(1),
 .image:nth-child(2) {
@@ -14,4 +14,8 @@
 }
 .image:nth-child(3) {
   background-size: contain;
+  margin: 16px;
+}
+.image:nth-child(2) {
+  margin-left: 2px;
 }

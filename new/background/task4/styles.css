@@ -1,26 +1,12 @@
 .image {
+  display: inline-block;
   width: 200px;
   height: 200px;
-  display: inline-block;
+  margin: 16px;
   border: 1px dotted grey;
   box-sizing: border-box;
   background-position: center;
   background-repeat: no-repeat;
-}
-.image:nth-child(1),
-.image:nth-child(2) {
   background-size: contain;
+  background-position: center;
 }
-.image:nth-child(3) {
-  background-size: contain;
-  margin: 16px;
-}
-.image:nth-child(2) {
-  margin: 16px;
-}
-
-.image:nth-child(1) {
-  margin: 16px;
-}
-
-/* margin-left: 11px; */

@@ -3,12 +3,12 @@ html {
 }
 h1 {
   font-size: 74px;
-  margin: 0px;
-  text-align: center;
+  margin: auto;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 50vw;
+  width: 50%;
+  text-align: center;
 }
 .center {
   height: 200px;

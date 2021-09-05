@@ -14,8 +14,8 @@
 }
 .image:nth-child(3) {
   background-size: contain;
-  margin: 16px;
+  margin: 12px;
 }
 .image:nth-child(2) {
-  margin-left: 12px;
+  margin-left: 11px;
 }

@@ -1,0 +1,29 @@
+.main-section {
+  margin: 32px;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.h1 {
+  text-transform: capitalize;
+  word-spacing: 20px;
+  text-align: center;
+}
+p {
+  line-height: 28px;
+}
+.html-abrev,
+.css-abrev {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.translation {
+  color: grey;
+}
+.wiki-link {
+  text-decoration: none;
+}

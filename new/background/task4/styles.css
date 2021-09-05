@@ -1,3 +1,6 @@
+.gallary {
+  display: flex;
+}
 .image {
   display: inline-block;
   width: 200px;
@@ -8,5 +11,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
 }

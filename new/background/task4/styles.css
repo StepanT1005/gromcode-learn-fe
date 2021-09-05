@@ -1,13 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 .gallary {
   display: flex;
 }
 .image {
-  display: inline-block;
   width: 200px;
   height: 200px;
   margin: 16px;
   border: 1px dotted grey;
-  box-sizing: border-box;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

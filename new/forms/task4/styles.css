@@ -31,12 +31,10 @@ body {
   border: 1px #808080;
   padding: 4px;
   outline: none;
+  margin-top: 4px;
 }
 .form-control {
   margin-bottom: 8px;
-}
-.form-label {
-  margin-bottom: 4px;
 }
 .submit-button {
   width: 100%;

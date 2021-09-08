@@ -54,12 +54,12 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 .nav-list-link {
   color: #fff;
   text-decoration: none;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
 }
 .css-units {
   color: #8b0000;

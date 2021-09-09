@@ -33,12 +33,11 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
 }
 @media screen and (orientation: portrait) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 

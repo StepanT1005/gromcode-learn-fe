@@ -29,9 +29,8 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
   @include type-device {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }

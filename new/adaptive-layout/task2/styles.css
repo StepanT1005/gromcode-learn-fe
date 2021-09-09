@@ -1,3 +1,6 @@
+/* * {
+  box-sizing: border-box;
+} */
 .navigation {
   background-color: #ff7f50;
   flex-grow: 1;
@@ -27,9 +30,24 @@
     display: flex;
     flex-grow: 2;
   }
+  .navigation {
+    width: 50vw;
+  }
+  .product_list {
+    width: 50vw;
+  }
 }
 @media screen and (min-width: 900px) {
   .container {
     display: flex;
+  }
+  .navigation {
+    width: 33.3vw;
+  }
+  .product_list {
+    width: 33.3vw;
+  }
+  .news {
+    width: 33.3vw;
   }
 }

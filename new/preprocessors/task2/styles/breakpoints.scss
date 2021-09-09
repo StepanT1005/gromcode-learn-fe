@@ -1,0 +1,27 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin for-medium {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-x-large {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin type-device {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}

@@ -28,7 +28,6 @@ html {
 .nav-list {
   list-style-type: none;
   padding: 0px;
-  text-align: center;
 }
 .navigation {
   padding: 0.5em;
@@ -39,6 +38,10 @@ html {
   color: #fff;
   height: 2em;
   margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 2em;
 }
 .nav-list-link {
   text-decoration: none;
@@ -49,3 +52,14 @@ html {
   width: 100vw;
   display: flex;
 } */
+
+@media screen and (max-width: 599px) {
+  .navigation {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 600px) {
+  .fa-bars {
+    visibility: hidden;
+  }
+}

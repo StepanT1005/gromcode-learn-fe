@@ -25,19 +25,11 @@
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
+    flex-grow: 2;
   }
 }
 @media screen and (min-width: 900px) {
   .container {
     display: flex;
-  }
-  .navigation {
-    width: 33.3vw;
-  }
-  .product_list {
-    width: 33.3vw;
-  }
-  .news {
-    width: 33.3vw;
   }
 }

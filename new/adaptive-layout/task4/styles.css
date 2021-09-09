@@ -27,7 +27,8 @@ html {
 }
 .nav-list {
   list-style-type: none;
-  padding: none;
+  padding: 0px;
+  text-align: center;
 }
 .navigation {
   padding: 0.5em;

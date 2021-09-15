@@ -454,11 +454,6 @@
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
-@media screen and (max-width: 1399px) {
-  .order {
-    visibility: hidden;
-  }
-}
 @media screen and (min-width: 1400px) {
   .order {
     padding: 73px 0 72px 0;
@@ -533,7 +528,7 @@
   color: #3142c6;
 }
 
-.audiences {
+.audience {
   display: flex;
   flex-direction: column;
   background-color: #00a1c612;
@@ -543,11 +538,11 @@
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     padding: 0;
   }
 }
-.audiences__title-top {
+.audience__title-top {
   min-height: 34px;
   font-size: 22px;
   font-weight: 700;
@@ -556,14 +551,14 @@
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__title-top {
+  .audience__title-top {
     height: 72px;
     width: 555px;
     margin: auto;
     margin-top: 108px;
   }
 }
-.audiences__title-heading {
+.audience__title-heading {
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -572,7 +567,7 @@
   margin: 17px 0 0 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__title-heading {
+  .audience__title-heading {
     height: 112px;
     width: 555px;
     margin: auto;
@@ -582,7 +577,7 @@
     text-align: center;
   }
 }
-.audiences__title-proposition {
+.audience__title-proposition {
   font-family: Work Sans;
   font-size: 24px;
   font-style: normal;
@@ -593,35 +588,35 @@
   margin: 18px 0 0 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__title-proposition {
+  .audience__title-proposition {
     height: 72px;
     width: 555px;
   }
 }
-.audiences__title {
+.audience__title {
   margin-bottom: 25px;
 }
-.audiences__actions {
+.audience__actions {
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__actions {
+  .audience__actions {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
-.audiences__button {
+.audience__button {
   width: 100%;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__button {
+  .audience__button {
     height: 48px;
     width: 160px;
     margin: 0 5px 0 0;
   }
 }
-.audiences__learn-more-btn {
+.audience__learn-more-btn {
   background-color: #fff;
   color: #000000;
   width: 100%;
@@ -634,7 +629,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
-  .audiences__learn-more-btn {
+  .audience__learn-more-btn {
     margin: 0 0 0 5px;
     height: 48px;
     width: 158px;
@@ -642,12 +637,12 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .audiences__cards {
+  .audience__cards {
     display: flex;
     justify-content: center;
   }
 }
-.audiences .user-card {
+.audience .user-card {
   width: 290px;
   height: 300px;
   display: flex;
@@ -662,7 +657,7 @@
   border: none;
 }
 @media screen and (min-width: 1400px) {
-  .audiences .user-card {
+  .audience .user-card {
     width: 262px;
     margin-left: 15.5px;
     margin-right: 15.5px;
@@ -670,24 +665,24 @@
     margin-top: 104px;
   }
 }
-.audiences__cards-user1 {
+.audience__cards-user1 {
   max-width: 138px;
   max-height: 195px;
   margin-top: 22px;
 }
-.audiences__cards-user2 {
+.audience__cards-user2 {
   max-width: 142px;
   max-height: 195px;
 }
-.audiences__cards-user3 {
+.audience__cards-user3 {
   max-width: 160px;
   max-height: 195px;
 }
-.audiences__cards-user4 {
+.audience__cards-user4 {
   max-width: 119px;
   max-height: 195px;
 }
-.audiences__cards-text {
+.audience__cards-text {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -695,16 +690,16 @@
   color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__cards-text {
+  .audience__cards-text {
     margin: 22px 25px 33px;
   }
 }
-.audiences .user-card:hover {
+.audience .user-card:hover {
   background-color: #3141c5;
   cursor: pointer;
   color: white;
 }
-.audiences .user-card:hover .audiences__cards-text {
+.audience .user-card:hover .audience__cards-text {
   color: #fff;
 }
 

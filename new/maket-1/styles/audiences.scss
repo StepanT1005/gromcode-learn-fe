@@ -1,4 +1,4 @@
-.audiences {
+.audience {
   display: flex;
   flex-direction: column;
   background-color: #00a1c612;
@@ -176,7 +176,7 @@
     background-color: #3141c5;
     cursor: pointer;
     color: white;
-    .audiences__cards-text {
+    .audience__cards-text {
       color: $color-white;
     }
   }

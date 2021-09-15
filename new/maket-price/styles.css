@@ -109,9 +109,6 @@ body {
   background: #5bb189;
 }
 
-.business {
-  position: relative;
-}
 .business .icon {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
@@ -122,9 +119,6 @@ body {
   background: #3a6ba5;
 }
 
-.webshop {
-  position: relative;
-}
 .webshop .icon {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }

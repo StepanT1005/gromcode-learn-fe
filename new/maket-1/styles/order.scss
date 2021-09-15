@@ -60,15 +60,17 @@
 
   &__button {
     margin-top: 12px;
+    width: 100%;
 
-    @include for-large-down {
-      width: 100%;
-    }
+    // @include for-large-down {
+    //   width: 100%;
+    // }
 
     @include for-large-up {
       margin-top: 40px;
       margin-left: 10px;
       flex-shrink: 0;
+      width: 160px;
     }
   }
 

@@ -36,15 +36,15 @@ ul li:nth-child(odd) {
   background: #2a3438;
 }
 body {
-  display: flex;
   width: 1440px;
   height: 1000px;
   background: #141b1c;
-  padding: 115px 132px;
+  //   padding: 115px 132px;
 }
 .container {
   display: flex;
   align-items: center;
+  margin: 115px 132px;
 }
 
 .price-card {
@@ -87,7 +87,7 @@ body {
 }
 
 .business {
-  margin: 0 18px 0;
+  margin: 18px 18px 18px 18px;
 }
 
 .icon {

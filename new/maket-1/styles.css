@@ -564,7 +564,7 @@
   line-height: 40px;
   letter-spacing: -0.3571428955px;
   text-align: center;
-  margin: 17px 0 0 0;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .audience__title-heading {

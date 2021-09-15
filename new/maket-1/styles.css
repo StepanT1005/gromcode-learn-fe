@@ -535,7 +535,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-bottom: 35px;
 }
 @media screen and (min-width: 1400px) {
   .audience {
@@ -607,6 +606,9 @@
     margin-bottom: 34px;
   }
 }
+.audience__actions {
+  margin-top: 30px;
+}
 @media screen and (min-width: 1400px) {
   .audience__actions {
     display: flex;
@@ -644,9 +646,6 @@
     border-radius: 2px;
   }
 }
-.audience__cards {
-  margin: 40px 15px 0 15px;
-}
 @media screen and (min-width: 1400px) {
   .audience__cards {
     display: flex;
@@ -664,7 +663,7 @@
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-top: 15px;
   border: none;
 }
 @media screen and (min-width: 1400px) {

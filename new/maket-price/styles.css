@@ -108,6 +108,10 @@ body {
   background: #5bb189;
 }
 
+.business {
+  position: relative;
+  overflow: hidden;
+}
 .business .icon {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
@@ -137,6 +141,29 @@ body {
   color: #fff;
   margin: 39px 113px 40px 112px;
   font-weight: 400;
+}
+
+.wrap {
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  width: 122px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ribbon {
+  height: 25px;
+  width: 147px;
+  background: #dc3f45;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=styles.css.map */

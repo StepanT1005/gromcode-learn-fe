@@ -108,7 +108,8 @@ body {
   }
 }
 .business {
-  //   position: relative;
+  position: relative;
+
   .icon {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
   }
@@ -118,9 +119,9 @@ body {
   .price-card__order-btn {
     background: $color-blue;
   }
+  overflow: hidden;
 }
 .webshop {
-  //   position: relative;
   .icon {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   }
@@ -142,27 +143,24 @@ body {
   font-weight: 400;
 }
 
-// .square_popular {
-//   position: absolute;
-//   width: 122px;
-//   height: 123px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   right: 0px;
-// }
-
-// .popular {
-//   color: #fff;
-//   height: 147.0782140355979px;
-//   width: 25.01288180458877px;
-//   background: #dc3f45;
-//   transform: rotate(-45deg);
-//   display: block;
-
-//   display: flex;
-//   text-align: center;
-//   align-items: center;
-//   justify-content: center;
-//   text-emphasis-position:;
-// }
+.wrap {
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  width: 122px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ribbon {
+  height: 25px;
+  width: 147px;
+  background: #dc3f45;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transform: rotate(45deg);
+}

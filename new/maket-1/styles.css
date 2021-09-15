@@ -454,6 +454,11 @@
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
+@media screen and (max-width: 1399px) {
+  .order {
+    display: none;
+  }
+}
 @media screen and (min-width: 1400px) {
   .order {
     padding: 73px 0 72px 0;
@@ -654,6 +659,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   margin-top: 15px;
+  border: none;
 }
 @media screen and (min-width: 1400px) {
   .audiences .user-card {
@@ -667,6 +673,7 @@
 .audiences__cards-user1 {
   max-width: 138px;
   max-height: 195px;
+  margin-top: 22px;
 }
 .audiences__cards-user2 {
   max-width: 142px;

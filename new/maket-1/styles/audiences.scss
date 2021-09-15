@@ -129,6 +129,7 @@
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     margin-top: 15px;
+    border: none;
     @include for-large-up {
       width: 262px;
       margin-left: 15.5px;
@@ -141,6 +142,7 @@
   &__cards-user1 {
     max-width: 138px;
     max-height: 195px;
+    margin-top: 22px;
   }
 
   &__cards-user2 {

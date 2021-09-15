@@ -1,0 +1,181 @@
+.audiences {
+  display: flex;
+  flex-direction: column;
+  background-color: #00a1c612;
+  padding: 50px 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  @include for-large-up {
+    padding: 0;
+  }
+
+  &__title-top {
+    min-height: 34px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+
+    @include for-large-up {
+      height: 72px;
+      width: 555px;
+      // text-align: center;
+      margin: auto;
+      margin-top: 108px;
+    }
+  }
+
+  &__title-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3571428954601288px;
+    text-align: center;
+    margin: 17px 0 0 0;
+
+    @include for-large-up {
+      height: 112px;
+      width: 555px;
+      margin: auto;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      text-align: center;
+    }
+  }
+
+  &__title-proposition {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 18px 0 0 0;
+
+    @include for-large-up {
+      height: 72px;
+      width: 555px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__actions {
+    margin-top: 30px;
+    @include for-large-up {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    @include for-large-up {
+      height: 48px;
+      width: 160px;
+      margin: 0 5px 0 0;
+    }
+  }
+
+  &__learn-more-btn {
+    background-color: #fff;
+    color: #000000;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    margin-top: 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+    @include for-large-up {
+      margin: 0 0 0 5px;
+      height: 48px;
+      width: 158px;
+      border-radius: 2px;
+    }
+  }
+
+  &__cards {
+    @include for-large-up {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__cards-image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #ffffff;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-top: 15px;
+    @include for-large-up {
+      width: 262px;
+      margin-left: 15.5px;
+      margin-right: 15.5px;
+      margin-bottom: 110px;
+      margin-top: 104px;
+    }
+  }
+
+  &__cards-user1 {
+    max-width: 138px;
+    max-height: 195px;
+  }
+
+  &__cards-user2 {
+    max-width: 142px;
+    max-height: 195px;
+  }
+
+  &__cards-user3 {
+    max-width: 160px;
+    max-height: 195px;
+  }
+
+  &__cards-user4 {
+    max-width: 119px;
+    max-height: 195px;
+  }
+
+  &__cards-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 22px 20px 33px;
+    color: $color-dark;
+
+    @include for-large-up {
+      margin: 22px 25px 33px;
+    }
+  }
+
+  .audiences__cards-image:hover {
+    background-color: #3141c5;
+    cursor: pointer;
+    color: white;
+    .audiences__cards-text {
+      color: $color-white;
+    }
+  }
+}

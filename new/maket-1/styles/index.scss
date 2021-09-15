@@ -1,0 +1,28 @@
+@import "breakpoints.scss";
+@import "variables.scss";
+@import "common.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "headline.scss";
+@import "order.scss";
+@import "audiences.scss";
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #2b292d;
+}
+
+.page {
+  width: 100%;
+
+  @include for-large-up {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+    max-width: 1400px;
+  }
+}

@@ -45,13 +45,12 @@ body {
   height: 1000px;
   background: #141b1c;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .container {
   display: flex;
   align-items: center;
+  margin: 115px 132px;
 }
 
 .price-card {

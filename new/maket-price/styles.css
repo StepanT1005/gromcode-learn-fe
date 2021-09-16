@@ -40,17 +40,14 @@ ul li:nth-child(odd) {
   background: #2a3438;
 }
 
-body {
+.container {
   width: 1440px;
   height: 1000px;
   background: #141b1c;
   display: flex;
-}
-
-.container {
-  display: flex;
   align-items: center;
-  margin: 115px 132px;
+  justify-content: center;
+  padding: 115px 132px;
 }
 
 .price-card {

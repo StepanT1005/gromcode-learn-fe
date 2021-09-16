@@ -35,19 +35,26 @@ li {
 ul li:nth-child(odd) {
   background: #2a3438;
 }
-body {
+// body {
+//   width: 1440px;
+//   height: 1000px;
+//   background: #141b1c;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 115px 132px;
+// }
+.container {
+  // display: flex;
+  // align-items: center;
+  // margin: 115px 132px;
   width: 1440px;
   height: 1000px;
   background: #141b1c;
   display: flex;
-  // align-items: center;
-  // justify-content: center;
-  //   padding: 115px 132px;
-}
-.container {
-  display: flex;
   align-items: center;
-  margin: 115px 132px;
+  justify-content: center;
+  padding: 115px 132px;
 }
 
 .price-card {

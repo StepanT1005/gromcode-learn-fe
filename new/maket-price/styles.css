@@ -133,9 +133,6 @@ ul li:nth-child(odd) {
 .webshop .price-card__order-btn {
   background: #ec632a;
 }
-.webshop .price-card__price {
-  height: 108px;
-}
 .webshop .price-card__title {
   height: 127px;
 }

@@ -121,9 +121,6 @@ ul li:nth-child(odd) {
   background: #3a6ba5;
 }
 
-.webshop {
-  height: 773px;
-}
 .webshop .icon {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
@@ -132,9 +129,6 @@ ul li:nth-child(odd) {
 }
 .webshop .price-card__order-btn {
   background: #ec632a;
-}
-.webshop .price-card__title {
-  height: 127px;
 }
 
 .price-card__order-btn {

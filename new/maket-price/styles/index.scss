@@ -41,12 +41,13 @@ body {
   background: #141b1c;
   display: flex;
   align-items: center;
+  justify-content: center;
   //   padding: 115px 132px;
 }
 .container {
   display: flex;
   align-items: center;
-  margin: 0 132px 0 132px;
+  // margin: 0 132px 0 132px;
 }
 
 .price-card {

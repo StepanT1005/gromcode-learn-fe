@@ -8,10 +8,12 @@ html {
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   margin: 0;
+  margin-top: 33px;
   font-weight: 700;
   font-size: 35px;
-  line-height: 30.48px;
   line-height: 43px;
 }
 
@@ -27,6 +29,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+ul li:nth-child(odd) {
+  background: #2a3438;
+}
 
 li {
   height: 50px;
@@ -36,30 +41,27 @@ li {
   font-weight: 300;
 }
 
-ul li:nth-child(odd) {
-  background: #2a3438;
-}
-
 .container {
-  width: 1440px;
-  height: 1000px;
-  background: #141b1c;
   display: flex;
   justify-content: center;
-  padding: 115px 132px;
+  align-items: center;
+  width: 1440px;
+  background: #141b1c;
 }
 
 .price-card {
   height: 770px;
   width: 380px;
   background: #334247;
+  margin: 115px 0px 115px 0;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 .price-card__title {
-  height: 130px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 100px;
+  height: 64px;
+  margin: auto;
+  margin-bottom: 33px;
+  text-align: center;
 }
 .price-card__price {
   width: 380px;
@@ -85,7 +87,7 @@ ul li:nth-child(odd) {
 }
 
 .business {
-  margin: 18px 18px 18px 18px;
+  margin: 0px 18px 0px 18px;
 }
 
 .icon {
@@ -108,7 +110,6 @@ ul li:nth-child(odd) {
 .business {
   position: relative;
   overflow: hidden;
-  height: 770px;
   margin-top: 0;
 }
 .business .icon {
